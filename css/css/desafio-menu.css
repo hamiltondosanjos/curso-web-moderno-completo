@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    color: gray;
+}
+
+.cabecalho {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(75 75 97);
+    border-bottom: 4px solid #aa9ab9;
+    display: flex;
+}
+.logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    padding: 20px 40px 20px 20px;
+    width: 200px;
+    order: 1;
+}
+
+.menu-toggle {
+height: 20px;
+display: none;
+}
+
+nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+    
+}
+
+.menu {
+    
+}
+ .menu ul {
+    display: inline-flex;
+    width: 300px;
+   
+   
+ }
+
+ .menu li {
+    display: inline-block;
+    
+ }
+
+ .menu li a {
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 16px;
+ }
+
+ .menu li a:hover {
+     background-color: rebeccapurple;
+    
+     color: rgb(255, 245, 202);
+
+ }
+
+ aside {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    order: 3;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+ .autenticacao {
+    
+ }
+
+ .autenticacao a {
+    font-family: Oswald, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 16px;
+ }
+
+ .botao {
+     background-color: rebeccapurple;
+     padding: 40px;
+     border-radius: 30px;
+ }
+
+ .destaque {
+    -webkit-box-shadow: 5px 5px 0px -1px rebeccapurple; 
+    box-shadow: 4px 4px 0px -1px rgb(64, 28, 100);
+
+ }
+
+
+ @media (max-width:765px) {
+    aside { display: none;}
+}
